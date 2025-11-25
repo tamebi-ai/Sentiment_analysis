@@ -1,5 +1,5 @@
 # Streamlit - CRITIQUE pour le déploiement
-streamlit==1.31.0
+streamlit==1.39.0
 
 # API & Authentication
 python-dotenv==1.0.0
@@ -18,7 +18,7 @@ langdetect==1.0.9
 
 # Data manipulation
 pandas==2.2.3
-numpy==2.0.1
+numpy>=1.24.0,<2.0.0
 
 # Visualisation (requis pour Streamlit)
 matplotlib==3.9.2
@@ -29,5 +29,5 @@ plotly==5.18.0
 pydantic==2.10.3
 
 # Autres dépendances Streamlit
-Pillow==12.0.0
+Pillow>=10.0.0
 openpyxl==3.1.2
