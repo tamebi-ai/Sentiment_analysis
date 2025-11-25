@@ -1,31 +1,18 @@
 # ============================================
-# REQUIREMENTS.TXT - VERSION CORRIGÉE RENDER
+# REQUIREMENTS.TXT - VERSION API ONLY
 # ============================================
 
-# Core Web Framework
+# Core
 streamlit==1.39.0
-
-# Environment
 python-dotenv==1.0.0
 
-# Google Gemini API
+# APIs
 google-generativeai==0.8.3
-
-# HuggingFace & ML (versions compatibles)
-huggingface-hub==0.26.2
-transformers==4.40.2
-tokenizers==0.19.1
-sentencepiece==0.2.0
-safetensors==0.4.3
-
-# PyTorch CPU-only (pour réduire la taille)
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.5.1+cpu
+requests==2.32.3
 
 # Data Processing
 pandas==2.2.3
 numpy==1.26.4
-pyarrow==14.0.0
 
 # Visualization
 plotly==5.18.0
@@ -33,7 +20,3 @@ plotly==5.18.0
 # File Handling
 Pillow==10.4.0
 openpyxl==3.1.2
-
-# Utilities
-requests==2.32.3
-protobuf==4.25.3
