@@ -1,0 +1,25 @@
+# API & Authentication
+python-dotenv==1.0.0
+google-generativeai==0.8.3
+huggingface-hub==0.26.2
+
+# Machine Learning
+transformers==4.46.3
+torch==2.5.1
+datasets==3.0.1
+scikit-learn==1.5.2
+
+# Traduction & Détection de langue
+deep-translator==1.11.4
+langdetect==1.0.9
+
+# Data manipulation
+pandas==2.2.3
+numpy==2.0.1
+
+# Visualisation
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Validation
+pydantic==2.10.3
