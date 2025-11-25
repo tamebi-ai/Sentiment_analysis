@@ -1,44 +1,49 @@
 # ============================================
-# REQUIREMENTS.TXT - VERSION OPTIMISÉE RENDER
+# REQUIREMENTS.TXT - VERSION CORRIGÉE
 # ============================================
 # Core Web Framework
 streamlit==1.39.0
+
 # API & Authentication
 python-dotenv==1.0.0
 google-generativeai==0.8.3
+
 # HuggingFace & ML
 huggingface-hub==0.26.2
-#transformers==4.46.3
-transformers==4.40.2
-torch
+transformers==4.46.3  # ✅ Version compatible avec tokenizers 0.20.3
+tokenizers==0.20.3
+torch==2.5.1
 sentencepiece
 protobuf
-tokenizers==0.20.3
 safetensors==0.7.0
-# PyTorch (CPU only pour réduire la taille)
-torch==2.5.1
 datasets==3.0.1
+
 # ML Utilities
 scikit-learn==1.5.2
 scipy>=1.11.0
+
 # Text Processing
 deep-translator==1.11.4
 langdetect==1.0.9
-# Data Manipulation (versions compatibles)
+
+# Data Manipulation
 pandas==2.2.3
 numpy>=1.24.0,<2.0.0
 pyarrow>=14.0.0
+
 # Visualisation
 matplotlib>=3.7.0,<4.0.0
 seaborn==0.13.2
 plotly==5.18.0
+
 # Data Validation
 pydantic>=2.5.0,<3.0.0
 pydantic-core>=2.14.0
+
 # File Handling
 Pillow>=10.0.0,<13.0.0
 openpyxl==3.1.2
+
 # Additional Dependencies
-protobuf>=4.21.0
 requests>=2.31.0
 typing-extensions>=4.8.0
