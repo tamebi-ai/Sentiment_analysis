@@ -1,0 +1,9 @@
+python-3.11.9
+```
+
+## 📝 Structure de tes fichiers :
+```
+Sentiment_analysis/
+├── inter.py
+├── requirements.txt
+└── runtime.txt          ← NOUVEAU FICHIER
